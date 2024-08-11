@@ -48,3 +48,14 @@ nav {
     display: flex;
     align-items: center;
 }
+.nav-center {
+    height: 40px;
+    display: flex;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.nav-center:hover {
+    outline: 2px solid rgb(232, 176, 73);
+}
